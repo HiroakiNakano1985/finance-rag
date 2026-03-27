@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 import os
 import glob
@@ -22,7 +22,7 @@ print(f"合計{len(documents)}ページ読み込みました")
 
 # チャンク分割
 print("テキストを分割中...")
-splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=30)
 chunks = splitter.split_documents(documents)
 print(f"{len(chunks)}チャンクに分割しました")
 
