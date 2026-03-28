@@ -117,6 +117,11 @@ finance-rag/
 - [ ] 回答の根拠ページ数表示
 - [ ] EDINETの有価証券報告書への対応
 
+### 作者
+Hiroaki Nakano  
+ESADE Master in Business Analytics  
+Director, Japan Post Bank  
+
 ---
 
 ## English
@@ -228,3 +233,8 @@ finance-rag/
 - [ ] Automatic document update pipeline
 - [ ] Source page number display in answers
 - [ ] EDINET financial statement integration
+
+### Author
+Hiroaki Nakano  
+ESADE Master in Business Analytics  
+Director, Japan Post Bank  
